@@ -1,0 +1,7 @@
+project: savantenvs/veyon
+target: vncclientprotocol
+
+cmds:
+  - cmd: /mayhem/mayhem/build-fuzz/mayhem-bin/vncclientprotocol
+    libfuzzer: true
+    timeout: 5

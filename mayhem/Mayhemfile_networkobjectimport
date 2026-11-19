@@ -1,0 +1,11 @@
+project: savantenvs/veyon
+target: networkobjectimport
+
+cmds:
+  - cmd: /mayhem/mayhem/build-fuzz/mayhem-bin/networkobjectimport
+    libfuzzer: true
+    timeout: 5
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/networkobjectimport/testsuite

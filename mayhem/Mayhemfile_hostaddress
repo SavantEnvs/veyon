@@ -1,0 +1,7 @@
+project: savantenvs/veyon
+target: hostaddress
+
+cmds:
+  - cmd: /mayhem/mayhem/build-fuzz/mayhem-bin/hostaddress
+    libfuzzer: true
+    timeout: 5

@@ -1,0 +1,3 @@
+# Keep local build trees out of the commit-image build context.
+mayhem/build-fuzz/
+mayhem/build-test/

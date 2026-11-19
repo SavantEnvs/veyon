@@ -1,0 +1,5 @@
+{"BuiltinDirectory":{"NetworkObjects":{"JsonStoreArray":[
+{"Name":"Room 1","Type":2,"Uid":"{a8c8b5b8-1d45-4b88-9f1b-6f0d1f2b6e01}"},
+{"Name":"PC1","Type":3,"HostAddress":"10.0.0.1","MacAddress":"00:11:22:33:44:55","Uid":"{a8c8b5b8-1d45-4b88-9f1b-6f0d1f2b6e02}","ParentUid":"{a8c8b5b8-1d45-4b88-9f1b-6f0d1f2b6e01}"},
+{"Name":"PC2","Type":3,"HostAddress":"pc2.example:5900","Uid":"{a8c8b5b8-1d45-4b88-9f1b-6f0d1f2b6e03}","ParentUid":"{a8c8b5b8-1d45-4b88-9f1b-6f0d1f2b6e01}"}
+]}}}

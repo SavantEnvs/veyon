@@ -1,0 +1,3 @@
+%location%;%name%;%mac%
+Room 01;PC01;00:11:22:33:44:55
+Room 02;PC02;aa:bb:cc:dd:ee:ff

@@ -1,0 +1,7 @@
+project: savantenvs/veyon
+target: variantstream
+
+cmds:
+  - cmd: /mayhem/mayhem/build-fuzz/mayhem-bin/variantstream
+    libfuzzer: true
+    timeout: 5

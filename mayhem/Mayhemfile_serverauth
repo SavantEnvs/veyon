@@ -1,0 +1,7 @@
+project: savantenvs/veyon
+target: serverauth
+
+cmds:
+  - cmd: /mayhem/mayhem/build-fuzz/mayhem-bin/serverauth
+    libfuzzer: true
+    timeout: 5

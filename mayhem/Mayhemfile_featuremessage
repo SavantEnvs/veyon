@@ -1,0 +1,7 @@
+project: savantenvs/veyon
+target: featuremessage
+
+cmds:
+  - cmd: /mayhem/mayhem/build-fuzz/mayhem-bin/featuremessage
+    libfuzzer: true
+    timeout: 5

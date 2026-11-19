@@ -1,0 +1,7 @@
+project: savantenvs/veyon
+target: variantarraymessage
+
+cmds:
+  - cmd: /mayhem/mayhem/build-fuzz/mayhem-bin/variantarraymessage
+    libfuzzer: true
+    timeout: 5
